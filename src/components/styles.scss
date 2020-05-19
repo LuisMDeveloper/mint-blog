@@ -1,0 +1,35 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.container.main {
+  min-height: 45rem;
+}
+
+.row.post {
+  margin-bottom: 50px;
+}
+
+.col.post {
+  display: flex;
+  align-items: center;
+}
+
+.post-overview {
+  padding-left: 30px;
+}
+
+.profile-jumbotron {
+  padding-top: 56px;
+  margin-bottom: 50px;
+  background-color: #8eb8e5;
+
+  .container {
+    display: flex;
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+  }
+
+  .profile-overview {
+    padding-left: 30px;
+    max-width: 70%;
+  }
+}
