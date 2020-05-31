@@ -8,13 +8,10 @@
   margin-bottom: 50px;
 }
 
-.col.post {
-  display: flex;
-  align-items: center;
-}
-
-.post-overview {
-  padding-left: 30px;
+.icon-row {
+  i {
+    margin-right: 8px;
+  }
 }
 
 .profile-jumbotron {
@@ -23,13 +20,7 @@
   background-color: #8eb8e5;
 
   .container {
-    display: flex;
     padding-top: 4.5rem;
     padding-bottom: 4.5rem;
-  }
-
-  .profile-overview {
-    padding-left: 30px;
-    max-width: 70%;
   }
 }
