@@ -10,7 +10,7 @@ var faker = require("faker")
 const elements = ["1", "2", "3", "4", "5", "6"]
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home"/>
+    <SEO title="Blog"/>
     <div className="container main">
       {elements.map((value, index) => {
         return (
