@@ -1,7 +1,40 @@
+$body-bg: #F9F9FF;
+$body-color: #5E5C7F;
+$header-bg: #353353;
+
 @import "node_modules/bootstrap/scss/bootstrap";
 
-.container.main {
-  min-height: 45rem;
+#main {
+  padding-top: 56px + 36px;
+}
+
+#header-navbar {
+  background-color: $header-bg;
+}
+
+#footer {
+  color: $body-bg;
+  background-color: $header-bg;
+  min-height: 50px;
+
+  .container {
+    padding-bottom: 150px;
+    padding-top: 50px;
+
+    #footer-about-me {
+      margin-left: 36px;
+    }
+  }
+}
+
+#skill-badges {
+  span {
+    margin-right: 8px;
+  }
+}
+
+.skill {
+  margin-bottom: 8px;
 }
 
 .row.post {
