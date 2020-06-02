@@ -37,6 +37,28 @@ $header-bg: #353353;
   margin-bottom: 8px;
 }
 
+.footer-social {
+  margin-top: 16px;
+
+  a {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+}
+
+.post-subtitle {
+  & > * {
+    margin-right: 16px;
+  }
+
+  .post-subtitle-social-icons {
+    & > * {
+      margin-right: 4px;
+      margin-left: 4px;
+    }
+  }
+}
+
 .row.post {
   margin-bottom: 50px;
 }

@@ -16,10 +16,13 @@ const Header = ({ siteTitle }) => (
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            <a className="nav-link" href="#">Blog</a>
+            <Link to="/" className="nav-link" activeClassName="active">Blog</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">About Me</a>
+            <Link to="/about-me" className="nav-link" activeClassName="active">About Me</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/post" className="nav-link" activeClassName="active">Post</Link>
           </li>
         </ul>
       </div>
