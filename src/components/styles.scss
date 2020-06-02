@@ -46,6 +46,19 @@ $header-bg: #353353;
   }
 }
 
+.post-subtitle {
+  & > * {
+    margin-right: 16px;
+  }
+
+  .post-subtitle-social-icons {
+    & > * {
+      margin-right: 4px;
+      margin-left: 4px;
+    }
+  }
+}
+
 .row.post {
   margin-bottom: 50px;
 }
